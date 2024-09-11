@@ -476,9 +476,7 @@ body.showCart .cart {
     inset: 0 0 0 auto;
     z-index: 1000;
 }
-body.showCart header {
-    /* transform: translateX(-250px); */
-}
+
 .cart h2 {
     padding: 20px;
     margin: 0;
