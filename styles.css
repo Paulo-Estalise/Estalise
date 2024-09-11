@@ -1,12 +1,99 @@
+/* Fundo geral */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 0;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+/* Seção Hero */
+.hero {
+    background-image: url('https://via.placeholder.com/1500x600'); /* Substitua pela URL da imagem desejada */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Botões */
 .button {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     padding: 10px 20px;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+/* Animação de ícone do carrinho */
+.animate-bounce {
+    animation: bounce 1s ease;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-7px);
+    }
 }
