@@ -56,7 +56,7 @@ nav.navig-one {
 
 
 .welcome-page {
-    background: black;
+    background: #faeccf;
     width: 100%;
     height: 510px;
     display: flex;
@@ -472,10 +472,10 @@ p.promo {color: #cd3a00;
     grid-template-rows: 70px 1fr 70px;
     transition: 1s;
 }
-body.showCart .cart {
+body.showCart .cart {  
     inset: 0 0 0 auto;
     z-index: 1000;}
-
+   
 .cart h2 {
     padding: 20px;
     margin: 0;
@@ -639,55 +639,4 @@ width: 90%;
         height:auto
     }
   }
-  .retangulo-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 5px; /* Reduzindo o espaço entre os retângulos */
-    flex-wrap: wrap;
-    padding: 40px; /* Aumentando o espaçamento nas bordas em 40% */
-}
-
-.retangulo {
-    width: calc(20% - 10px); /* 20% para cada retângulo, subtraindo 10px devido ao espaço entre eles */
-    background-color: #444;
-    border: 10px solid #333; /* Aumentando a distância da borda */
-    border-radius: 10px;
-    padding: 10px; /* Reduzindo o preenchimento interno */
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 5px; /* Adicionando margem zero para juntar os retângulos */
-}
-
-.conteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.retangulo img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-
-.retangulo img:hover {
-    transform: translateY(-10px);
-}
-
-.botao-compra {
-    background-color: #000;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.botao-compra:hover {
-    background-color: #333;
-}
+  
